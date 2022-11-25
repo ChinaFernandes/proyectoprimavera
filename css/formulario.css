@@ -1,0 +1,30 @@
+
+.containerform{
+    background-color: rgb(224, 133, 28);
+    padding-top: 10px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.formizquierda{
+    background-color: rgb(119, 114, 114);
+    color: antiquewhite;
+    text-align: center;
+    margin-right: 30px;
+    margin: 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.formderecha{
+    color: aliceblue;
+    margin: 20px;
+    padding-top: 25px;
+    background-color: rgb(80, 79, 79);
+    text-align: center;
+}
+

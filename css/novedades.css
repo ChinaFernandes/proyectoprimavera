@@ -1,0 +1,40 @@
+#novedades{
+    background: rgb(58, 1, 41);
+    color:#fff;
+    text-align: center;
+    margin-top:-0.5%;
+    padding-top:2%;
+    padding-bottom: 1%;
+}
+
+#novedades .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-socios{
+    margin: 80px;
+}
+
+.info-socios img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border:7px solid #fff;
+}
+
+@media (min-width:480px){
+
+.info-socios{
+    width:40%;
+}   
+
+}
+
+@media (min-width:1024px){
+
+    .info-socios{
+        width:auto;
+    }   
+    
+ }
